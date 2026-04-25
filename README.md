@@ -21,3 +21,12 @@ Para ejecutar la aplicación con un archivo de palabras, usa el siguiente comand
     make run WORDS="manzana pera uva"
 
 Esto ordenará alfabéticamente las palabras que le pases.
+
+
+
+
+## Participación en la actividad grupal
+
+**Desarrollador 2:** Gonzalo Torres del Fierro
+
+Se realiza aporte al proyecto mediante uso de fork, rama propia, commits y pull request, siguiendo flujo colaborativo en GitHub.
