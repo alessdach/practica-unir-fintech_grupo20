@@ -11,3 +11,13 @@ Los comandos del Makefile funcionarán en Linux y MacOS. En caso de usar Windows
 python3 main.py <filename> <dup>
   filename: **ruta** al fichero que contiene la lista de palabras, una por línea
   dup: **yes|no**, yes para eliminar palabras duplicadas, no para mantener la lista
+
+
+
+## Ejemplo de uso
+
+Para ejecutar la aplicación con un archivo de palabras, usa el siguiente comando:
+
+    make run WORDS="manzana pera uva"
+
+Esto ordenará alfabéticamente las palabras que le pases.
