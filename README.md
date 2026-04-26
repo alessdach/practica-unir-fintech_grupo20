@@ -8,21 +8,28 @@ Los comandos del Makefile funcionarán en Linux y MacOS. En caso de usar Windows
 
 ## Ejecución
 
-python3 main.py <filename> <dup>
+
+python3 main.py <filename> <dup> <order>
   filename: **ruta** al fichero que contiene la lista de palabras, una por línea
   dup: **yes|no**, yes para eliminar palabras duplicadas, no para mantener la lista
+  order: **asc|desc**, asc para ordenar ascendente, desc para descendente
 
 
 
 ## Ejemplo de uso
 
-Para ejecutar la aplicación con un archivo de palabras, usa el siguiente comando:
 
-    make run WORDS="manzana pera uva"
+Para ejecutar la aplicación con un archivo de palabras y todos los parámetros, usa el siguiente comando:
 
-Esto ordenará alfabéticamente las palabras que le pases.
+  python3 main.py words.txt yes asc
 
+Esto ordenará las palabras del archivo words.txt, eliminará duplicados y las mostrará en orden ascendente.
 
+Para mantener duplicados y mostrar en orden descendente:
+
+  python3 main.py words.txt no desc
+
+Recuerda que los tres parámetros son obligatorios.
 
 
 ## Participación en la actividad grupal
@@ -56,3 +63,9 @@ Actividades realizadas:
 * Se realiza commit de los cambios 
         - *git add -A*
         - *git commit -m "feat(JOSEOCHOA): Se actualiza readme"*
+        - Se implementa funcionalidad de ordenamiento y se ajusta el readme.
+        - Se crea archivo de ejemplo para probar funcionalidad de ordenamiento y eliminacion de duplicados archivo words.txt
+        - Se adicionan los cambios al repo
+        - *git add -A*
+        - *git commit -m "feat(JOSEOCHOA): Se crea nuevo parametro al script main.py para ordenar asc/desc y se crea archivo words.txt para pruebas. Se ajusta el README.md para explicar el uso del nuevo parametro"*
+        
