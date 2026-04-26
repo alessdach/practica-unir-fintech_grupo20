@@ -30,3 +30,19 @@ Esto ordenará alfabéticamente las palabras que le pases.
 **Desarrollador 2:** Gonzalo Torres del Fierro
 
 Se realiza aporte al proyecto mediante uso de fork, rama propia, commits y pull request, siguiendo flujo colaborativo en GitHub.
+
+## Participante Nro 3 Actividad Grupal 
+
+Desarrollador 3: Jhon Gabriel Campos Zambrano
+
+Actividades realizadas:
+
+* Realizar fork desde el repositorio el administrador hacia mi cuenta personal
+* Hacer copia (git clone)  del proyecto desde mi cuenta hacia mi maquina
+* Generar una nueva rama (jcampos-python-mejora)
+* Realizar la edición de uno de los archivos
+* Agregar los cambios guardar los cambios en mi repositorio (Commit):
+    * git add
+    * git commit
+    * git push
+* Subir cambios al repositorio del administrador, con ayuda del pull request desde mi rama.  
