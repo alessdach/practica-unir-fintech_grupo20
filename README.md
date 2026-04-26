@@ -46,3 +46,13 @@ Actividades realizadas:
     * git commit
     * git push
 * Subir cambios al repositorio del administrador, con ayuda del pull request desde mi rama.  
+
+## Participante Nro 5 - Jose Humberto Ochoa
+
+* Se realiza el fork en 
+* Se clona el repo en local.
+* Se crea la rama nueva *git checkout -b joseochoa*
+* Se implementa los cambios de la primera actividad, actualizar README.md.
+* Se realiza commit de los cambios 
+        - *git add -A*
+        - *git commit -m "feat(JOSEOCHOA): Se actualiza readme"*
