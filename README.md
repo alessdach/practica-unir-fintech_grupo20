@@ -56,16 +56,19 @@ Actividades realizadas:
 
 ## Participante Nro 5 - Jose Humberto Ochoa
 
-* Se realiza el fork en 
+* Se realiza el fork en https://github.com/jochoa-existaya/practica-unir-fintech_grupo20
 * Se clona el repo en local.
 * Se crea la rama nueva *git checkout -b joseochoa*
 * Se implementa los cambios de la primera actividad, actualizar README.md.
 * Se realiza commit de los cambios 
         - *git add -A*
         - *git commit -m "feat(JOSEOCHOA): Se actualiza readme"*
-        - Se implementa funcionalidad de ordenamiento y se ajusta el readme.
+* Se implementa funcionalidad de ordenamiento y se ajusta el readme.
         - Se crea archivo de ejemplo para probar funcionalidad de ordenamiento y eliminacion de duplicados archivo words.txt
         - Se adicionan los cambios al repo
         - *git add -A*
         - *git commit -m "feat(JOSEOCHOA): Se crea nuevo parametro al script main.py para ordenar asc/desc y se crea archivo words.txt para pruebas. Se ajusta el README.md para explicar el uso del nuevo parametro"*
-        
+* Con esto se completa el feature de ordenamiento, se sube al fork y se crea pull request al repo original finalizando la actividad.
+        - *git push origin joseochoa*
+        - Se crea pull request en intefaz web de github
+
