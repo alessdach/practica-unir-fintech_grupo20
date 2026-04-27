@@ -24,18 +24,26 @@ def remove_duplicates_from_list(items):
 if __name__ == "__main__":
     filename = DEFAULT_FILENAME
     remove_duplicates = DEFAULT_DUPLICATES
+    ascending = True  # Default order is ascending
 
-    if len(sys.argv) == 3:
+    if len(sys.argv) == 4:
         filename = sys.argv[1]
         remove_duplicates = sys.argv[2].lower() == "yes"
+        order_param = sys.argv[3].lower()
+        if order_param == "asc":
+            ascending = True
+        elif order_param == "desc":
+            ascending = False
+        else:
+            print("The third argument must be 'asc' for ascending or 'desc' for descending order.")
+            sys.exit(1)
     else:
-        # Comments translated to English
-        print("You must specify the file as the first argument")
-        print("The second argument indicates if you want to remove duplicates")
+        print("You must specify the file as the first argument.")
+        print("The second argument indicates if you want to remove duplicates (yes/no).")
+        print("The third argument indicates the order: 'asc' or 'desc'.")
         sys.exit(1)
 
-    # Reading file
-    print(f"Reading words from file {filename}")
+    print(f"Reading words from file {filename}.")
     file_path = os.path.join(".", filename)
 
     if os.path.isfile(file_path):
@@ -44,11 +52,11 @@ if __name__ == "__main__":
             for line in file:
                 word_list.append(line.strip())
     else:
-        print(f"The file {filename} does not exist")
+        print(f"The file {filename} does not exist.")
         word_list = ["ravenclaw", "gryffindor", "slytherin", "hufflepuff"]
 
     if remove_duplicates:
         word_list = remove_duplicates_from_list(word_list)
 
     print("Sorted list:")
-    print(sort_list(word_list))
+    print(sort_list(word_list, ascending=ascending))
